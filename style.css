@@ -1,47 +1,58 @@
 body {
     background-image: url("https://tse1.mm.bing.net/th?id=OIP.wUbmzu7w2BcGwrtzoS4f_AHaEo&w=153&h=110&c=8&rs=1&qlt=90&dpr=1.25&pid=3.1&rm=2");
     background-repeat: no-repeat;
-    background-size: 1500px;
-    
-}
-
-table {
-    border-radius: 0px;
-    width: 700px;
-    border: solid 1px;
-    border-width: 10px; 
-    margin-top: 100px;
-    color: #d3bc8d;
-    font-size: 20px;
-    text-align: center;
+    background-size: cover;
    
 }
 
-table, th, td {
-    border: 0px;
-    font-family: sans-serif;
-    margin: 300px;
-    margin-top: 90px;
-    padding: 3px;
-    
+table {
+    width: 700px;
+    margin-top: 50px;
+    color: #d3bc8d;
+    font-size: 20px;
+    text-align: center;
+
+
+
 }
+
+table, th, td {
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding: 3px;
+    height: 40px;
+
+    
+   }
     
 .team {
+    position: relative;
     float: right;
-    margin-top: 520px;
-    margin-left: 1px;
+    margin-top: 500px;
+    margin-left: 100px;
+    border: 3px solid #d3bc8d;
+  
+}
+
+.state img {
+    position: relative;
+    border: 3px solid #d3bc8d;
+    opacity: 0.8;
 
 }
 
 .div-1 { 
-    margin-left: 350px;
+    margin-left: 255px;
     color: #d3bc8d;
-    margin-top: 50px;
-    
-
+    margin-top: 75px;
+    font-size: 20px;
+    height: 10px;
 }
 
-.website {
-    margin-left: 550px;
 
+.website {
+    font-size: 15px;
+    position: relative;
+    margin-left: 35px;
 }
